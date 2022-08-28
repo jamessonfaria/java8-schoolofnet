@@ -27,6 +27,9 @@ public class Main {
         MyInterface myInterface3 = System.out::println;
         myInterface3.print("Java 8 implementation - Functional Interface 3");
 
+        // Java 8 usando Default Methods
+        myInterface3.body("Testando o body...");
+
     }
 
 }

@@ -5,4 +5,8 @@ public interface MyInterface {
 
     void print(String s);
 
+    default void body (String s){
+        System.out.println(s);
+    }
+
 }
