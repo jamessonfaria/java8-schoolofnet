@@ -23,3 +23,9 @@ funcional.
 ### Optional
 - Optional é uma classe que foi implementada no Java 8, que tem o objetivo de simplificar os códigos.
 - O Optional nos ajuda a evitar os erros NullPointerException, tirar a necessidade da verificação (if x != null) e também a escrever um código com menos linhas e mais claro.
+
+### Date Time API
+- O Java 8 introduziu novas APIs para Data e Hora para resolver as deficiências dos antigos java.util.Date e java.util.Calendar .
+- __Segurança de thread__ – As classes Date e Calendar não são thread-safe, deixando os desenvolvedores para lidar com a dor de cabeça de problemas de simultaneidade difíceis de depurar e escrever código adicional para lidar com a segurança de thread. Pelo contrário, as novas APIs de data e hora introduzidas no Java 8 são imutáveis ​​e seguras para threads, eliminando assim a dor de cabeça da simultaneidade dos desenvolvedores.
+- __Design de API__ e facilidade de compreensão – As APIs de Data e Calendário são mal projetadas com métodos inadequados para realizar operações do dia-a-dia. A nova API de Data / Hora é centrada em ISO e segue modelos de domínio consistentes para data, hora, duração e períodos. Há uma grande variedade de métodos utilitários que suportam as operações mais comuns.
+- __ZonedDate e Time__ – Os desenvolvedores tiveram que escrever lógica adicional para lidar com a lógica de fuso horário com as APIs antigas, enquanto que com as novas APIs, o manuseio do fuso horário pode ser feito com APIs Local e ZonedDate / Time .
