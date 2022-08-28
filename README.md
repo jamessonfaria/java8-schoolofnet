@@ -1,4 +1,5 @@
 # Java 8 - Schoolofnet
+
 ### Lambdas
 - Uma expressão Lambda permite definir uma interface funcional (novamente, um método abstrato) que o compilador identifica pela estrutura. O compilador pode determinar a interface funcional representada a partir de sua posição. O tipo de uma expressão lambda é o da interface funcional associada.
 - Forma como o java possibilitou para utilização do paradigma 
@@ -14,3 +15,8 @@ funcional.
 
 ### Default Methods
 - Possibilita que o metodo de uma interface tem uma implementação padrão.
+
+### Streams API
+- Streams API, recurso que oferece ao desenvolvedor a possibilidade de trabalhar com conjuntos de elementos de forma mais simples e com um número menor de linhas de código. Isso se tornou possível graças à incorporação do paradigma funcional, combinado com as expressões lambda, o que facilita a manutenção do código e aumenta a eficiência no processamento devido ao uso de paralelismo.
+- Reduzir a preocupação do desenvolvedor com a forma de implementar controle de fluxo ao lidar com coleções, deixando isso a cargo da API. A ideia é iterar sobre essas coleções de objetos e, a cada elemento, realizar alguma ação, seja ela de filtragem, mapeamento, transformação, etc.
+
