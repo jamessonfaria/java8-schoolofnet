@@ -14,7 +14,7 @@ funcional.
 - O compilador consegue reconhecer essas interfaces e disponibilizá-las para o desenvolvedor trabalhar, por exemplo, com Lambdas.
 
 ### Default Methods
-- Possibilita que o metodo de uma interface tem uma implementação padrão.
+- Possibilita que o metodo de uma interface tenha uma implementação padrão.
 
 ### Streams API
 - Streams API, recurso que oferece ao desenvolvedor a possibilidade de trabalhar com conjuntos de elementos de forma mais simples e com um número menor de linhas de código. Isso se tornou possível graças à incorporação do paradigma funcional, combinado com as expressões lambda, o que facilita a manutenção do código e aumenta a eficiência no processamento devido ao uso de paralelismo.
@@ -29,3 +29,9 @@ funcional.
 - __Segurança de thread__ – As classes Date e Calendar não são thread-safe, deixando os desenvolvedores para lidar com a dor de cabeça de problemas de simultaneidade difíceis de depurar e escrever código adicional para lidar com a segurança de thread. Pelo contrário, as novas APIs de data e hora introduzidas no Java 8 são imutáveis ​​e seguras para threads, eliminando assim a dor de cabeça da simultaneidade dos desenvolvedores.
 - __Design de API__ e facilidade de compreensão – As APIs de Data e Calendário são mal projetadas com métodos inadequados para realizar operações do dia-a-dia. A nova API de Data / Hora é centrada em ISO e segue modelos de domínio consistentes para data, hora, duração e períodos. Há uma grande variedade de métodos utilitários que suportam as operações mais comuns.
 - __ZonedDate e Time__ – Os desenvolvedores tiveram que escrever lógica adicional para lidar com a lógica de fuso horário com as APIs antigas, enquanto que com as novas APIs, o manuseio do fuso horário pode ser feito com APIs Local e ZonedDate / Time .
+
+### Nashorn Javascript Engine
+- Essa engine permite colocar codigo javascript dentro de uma classe java.
+- Permite usar linha de comando via shell através do jjs.
+- O novo mecanismo JavaScript padrão para a JVM a partir do Java 8.
+Muitas técnicas sofisticadas foram usadas para tornar as ordens de magnitude do Nashorn mais eficientes do que seu antecessor chamado Rhino, por isso é uma mudança que vale a pena.
