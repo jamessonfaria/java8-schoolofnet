@@ -11,3 +11,6 @@ funcional.
 ### Functional Interface
 - Functional Interfaces são todas as interfaces que possuem um método à ser implementados, ou em outras palavras, um método abstrato. Isso quer dizer que várias interfaces que já existiam e que atendiam a essa premissa, automaticamente se tornaram interfaces funcionais. 
 - O compilador consegue reconhecer essas interfaces e disponibilizá-las para o desenvolvedor trabalhar, por exemplo, com Lambdas.
+
+### Default Methods
+- Possibilita que o metodo de uma interface tem uma implementação padrão.
